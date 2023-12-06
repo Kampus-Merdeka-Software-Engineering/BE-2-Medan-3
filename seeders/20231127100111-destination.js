@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('destinations', [{
+    await queryInterface.bulkInsert('Destinations', [{
       CityId: 1,
       name: "Pantai Seminyak",
       createdAt: new Date(),
@@ -347,6 +347,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete('destinations', null, {});
+    await queryInterface.bulkDelete('Destinations', null, {});
   }
 };

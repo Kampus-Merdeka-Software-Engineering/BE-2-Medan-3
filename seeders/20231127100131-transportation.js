@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('transportation', [{
+    await queryInterface.bulkInsert('Transportation', [{
       types_of_transportation: "Mobil",
       createdAt: new Date(),
       updatedAt: new Date(),
@@ -34,6 +34,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete('transportation', null, {});
+    await queryInterface.bulkDelete('Transportation', null, {});
   }
 };

@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('cities', [
+    await queryInterface.bulkInsert('Cities', [
       {
         name: 'Badung',
         createdAt: new Date(),
@@ -59,6 +59,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete('cities', null, {});
+    await queryInterface.bulkDelete('Cities', null, {});
   }
 };

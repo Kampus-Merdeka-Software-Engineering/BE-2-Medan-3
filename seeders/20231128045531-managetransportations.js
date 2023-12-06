@@ -12,7 +12,7 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-    await queryInterface.bulkInsert('managetransportations', [{
+    await queryInterface.bulkInsert('Managetransportations', [{
       DestinationId: 1,
       TransportationId: 1,
       createdAt: new Date(),
@@ -982,6 +982,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete('managetransportations', null, {});
+    await queryInterface.bulkDelete('Managetransportations', null, {});
   }
 };
