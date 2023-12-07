@@ -17,11 +17,11 @@ module.exports = {
       createdAt: new Date(),
       updatedAt: new Date(),
     },{
-      types_of_transportation: "Motor",
+      types_of_transportation: "Bus",
       createdAt: new Date(),
       updatedAt: new Date(),
     },{
-      types_of_transportation: "Bis",
+      types_of_transportation: "Taksi",
       createdAt: new Date(),
       updatedAt: new Date(),
     }], {});
