@@ -1,9 +1,5 @@
 
 # LocalTrans Bali
-<p align="center">
-  <img src="../frontend/assets/logo.png" alt="Sublime's custom image"/>
-</p>
-
 Selamat datang di repositori web LocalTrans Bali! LocalTrans Bali merupakan aplikasi pemesanan tiket perjalanan yang dapat melakukan pemesanan dengan cepat, efisien dan mengirimkan hasil pemesanan langsung ke server. Aplikasi ini dapat memudahkan pelanggan dalam mengakses informasi pemesanan tiket karena tingkat efektivitas dan efisiensi dari fungsi aplikasi itu sendiri. Kami merupakan bagian dari Team B - Group 3 - Section Medan RevoU MSIB KM AUG23, dan kami bangga telah membangun sebuah platform yang memberikan kemudahan bagi customer yang berkualitas.
 
 
