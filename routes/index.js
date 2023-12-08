@@ -1,5 +1,9 @@
 const route = require("express").Router();
 
+route.get("/", (req,res) => {
+    res.send("Final project kelompok 2");
+});
+
 const bookingRoutes = require("./BookingRoutes"); 
 route.use("/bookings", bookingRoutes);
 
